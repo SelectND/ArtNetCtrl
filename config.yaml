@@ -1,0 +1,24 @@
+ip: "192.168.188.252" # Place your ArtNet Node's IP here
+ip_port: 6454 # Default ArtNet port; do not change
+universe: 0 # ArtNet universe
+
+channel_start: 1 # First channel
+channel_width: 512 # Channel width
+
+port: "COM6" # Port of the serial device
+baud: 9600 # Baud; do not change
+
+scenes: # Scene definition
+  1: # Scene on first pot
+    - 1: 255 # Notation channel: value (max. 255; only 8 bit channels supported)
+    - 2: 200
+    - 3: 100
+  2:
+    - 1: 255
+  3:
+    - 7: 255
+  4:
+    - 2: 200
+  5:
+    - 2: 255
+    - 4: 200
