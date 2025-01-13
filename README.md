@@ -26,7 +26,7 @@ To execute the project, follow these steps:
 1. Ensure all required dependencies are installed.
 2. Flash the Arduino/Arduino.ino file to your Arduino and adjust the pin assignment for your needs
 3. Adjust the config.yaml file as needed
-4Run the project script by using:
+4. Run the project script by using:
    ```bash
    python main.py
    ```
